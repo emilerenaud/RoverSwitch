@@ -202,7 +202,7 @@ GenerateClassCluster=0
 DocumentUniqueId=RCKXSCYS
 
 [Document10]
-DocumentPath=CAN-IO.SchDoc
+DocumentPath=CAN-SW.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
