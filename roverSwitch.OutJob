@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=Output_job.OutJob
+Name=roverSwitch.OutJob
 Description=
 TargetOutputMedium=PDF
 VariantName=[No Variations]
@@ -163,7 +163,7 @@ Configuration5_Item6=Comment=120|Description=120|Designator=120|Footprint=120|Li
 [PublishSettings]
 OutputFilePath2=C:\Git\PCB_Kohr\Electronic\Project Outputs for kohr\PDF\Schematic.PDF
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for 10ADCDC
+OutputBasePath2=Project Outputs for roverSwitch
 OutputPathMedia2=PDF
 OutputPathMediaValue2=PDF
 OutputPathOutputer2=
@@ -190,7 +190,7 @@ PDFACompliance2=Disabled
 PDFVersion2=Default
 OutputFilePath3=
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for 10ADCDC
+OutputBasePath3=Project Outputs for roverSwitch
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Type]
@@ -203,7 +203,7 @@ OutputFileNameSpecial3=
 OpenOutput3=1
 OutputFilePath4=C:\Git\PCB_Kohr\Electronic\Project Outputs for kohr\Output_job.wmv
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for 10ADCDC
+OutputBasePath4=Project Outputs for roverSwitch
 OutputPathMedia4=
 OutputPathMediaValue4=
 OutputPathOutputer4=[Output Type]
@@ -240,7 +240,7 @@ WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=100
 OutputFilePath5=C:\Git\10A-DC-DC\Project Outputs for 10ADCDC\Gerber\
 ReleaseManaged5=1
-OutputBasePath5=Project Outputs for 10ADCDC
+OutputBasePath5=Project Outputs for roverSwitch
 OutputPathMedia5=Gerber
 OutputPathMediaValue5=Gerber
 OutputPathOutputer5=[Output Type]
