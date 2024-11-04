@@ -1,0 +1,26 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: roverSwitch.PcbDoc   2024-11-04  15:04:22
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : roverSwitch-RoundHoles.TXT
+ASCII SlotHoles File : roverSwitch-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.3mm (12mil)                                             Round             409       PTH        1333.52mm (52.50inch)
+T2      0.5mm (20mil)                                             Slot              2         PTH        14.64mm (0.58inch)
+T3      0.76mm (30mil)                                            Round             8         PTH        18.08mm (0.71inch)
+T4      0.889mm (35mil)                                           Round             32        PTH        117.44mm (4.62inch)
+T5      0.9mm (35mil)                                             Round             12        PTH        39.30mm (1.55inch)
+T6      1mm (39mil)                                               Round             13        PTH        58.94mm (2.32inch)
+T7      1.6mm (63mil)                                             Round             2         PTH        16.25mm (0.64inch)
+T8      1.6mm (63mil)                                             Round             5         PTH        69.46mm (2.73inch)
+T9      1.7mm (67mil)                                             Round             2         PTH        5.00mm (0.20inch)
+T10     3.4mm (134mil)                                            Round             4         PTH        250.00mm (9.84inch)
+T11     3.2mm (126mil)                                            Round             4         NPTH       53.13mm (2.09inch)
+T12     3.2mm (126mil)                                            Round             2         NPTH       53.34mm (2.10inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              495
+
+Total Processing Time (hh:mm:ss) : 00:00:00

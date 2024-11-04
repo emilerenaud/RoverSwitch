@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [roverSwitch.PcbDoc]
+   Generated File[roverSwitch-RoundHoles.TXT]
+   Generated File[roverSwitch-SlotHoles.TXT]
+   Generated File[roverSwitch.LDP]
+   Generated File[roverSwitch.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 15:04:22 On 2024-11-04
