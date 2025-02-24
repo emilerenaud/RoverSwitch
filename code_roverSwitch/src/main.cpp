@@ -68,12 +68,24 @@ void setup()
   uint8_t chipID = KSZ8567_ReadRegister(0x0002);
   Serial.print("Chip ID: 0x");
   Serial.println(chipID, HEX);
+
+  pinMode(0,INPUT);
 }
 
 
 void loop() 
 {
-
+  static bool lastState = 0;
+  if(digitalRead(0) != lastState)
+  {
+    delay(10);
+    if(digitalRead(0) == 0)
+    {
+      // button pressed toggle PoE 24V
+      digitalWrite(POE_5,!digitalRead(POE_5));
+    }
+    lastState = digitalRead(0);
+  }
 }
 
 
@@ -92,7 +104,7 @@ void blinkLed(void *parameter)
 
 void KSZ8567_WriteRegister(uint16_t reg, uint8_t data) {
     uint32_t command = 0x60000000 | (reg << 5); // Construct command: 010 + reg + data
-    uint8_t spi_tx[4]
+    uint8_t spi_tx[4];
 
     spi_tx[0] = (command >> 24) & 0xFF; // Command MSB
     spi_tx[1] = (command >> 16) & 0xFF; // High Address
